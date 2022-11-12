@@ -31,3 +31,46 @@ h4 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
 }
+
+/* 
+ Header area css
+*/
+.header-area {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    padding: 0 15px;
+    background-color: #040B14;
+    transition: all ease-in-out 0.5s;;
+}
+
+.profile img {
+    width: 120px;
+    margin: 15px auto;
+    border: 8px solid #2c2f3f;
+}
+.profile h1 {
+    font-size: 22px;
+}
+
+.social-links a {
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+    background-color: #212431;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+.social-links a:hover {
+    background-color: #149ddd;
+    text-decoration: none;
+}
