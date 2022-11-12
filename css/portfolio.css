@@ -101,6 +101,48 @@ h4 {
 .nav-menu a.active i {
     color: #2EAFEC
 }
+/* 
+ Main area css
+*/
+#main {
+    margin-left: 300px;
+}
+
+
+/* 
+ Hero section
+*/
+.hero-area {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+.hero-area::before {
+    position: absolute;
+    content: "";
+    background-color: rgba(5, 13, 24, 0.3);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+.hero-content h1 {
+    font-size: 50px;
+}
+.hero-content p {
+    font-size: 22px;
+}
+
 
 /* 
  Footer area css
