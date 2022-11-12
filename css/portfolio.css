@@ -44,7 +44,8 @@ h4 {
     width: 300px;
     padding: 0 15px;
     background-color: #040B14;
-    transition: all ease-in-out 0.5s;;
+    transition: all ease-in-out 0.5s;
+    overflow-y: auto;
 }
 
 .profile img {
